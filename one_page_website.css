@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #e2ede1 74%);
+}
+
+.card-img-top {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+.navLinks a:hover {
+    padding: 10px 20px;
+    background-color: black;
+    color: white !important;
+    border-radius: 12px;
+    transition-delay: 0.2s;
+    transition-duration: 1.2s;
+}
+
+.infoDiv {
+    justify-content: space-between;
+    width: 60% !important;
+}
